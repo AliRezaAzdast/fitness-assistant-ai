@@ -1,5 +1,6 @@
 import { ArrowRightIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import UserPrograms from "@/components/UserPrograms";
 import TerminalOverlay from "@/components/TerminalOverlay";
 import Link from "next/link";
 
@@ -112,6 +113,7 @@ function HomePage() {
           </div>
         </div>
       </section>
+      <UserPrograms />
     </div>
   )
 }
