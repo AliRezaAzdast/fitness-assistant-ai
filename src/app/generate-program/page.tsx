@@ -18,7 +18,7 @@ function GenerateProgramPage() {
   const { user } = useUser()
   const router = useRouter()
 
-  const messageContainerRef = useRef<HTMLDialogElement>(null)
+  const messageContainerRef = useRef<HTMLDivElement>(null)
 
   // auto scroll messages
   useEffect(() => {
